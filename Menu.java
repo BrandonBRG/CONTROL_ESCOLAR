@@ -116,8 +116,9 @@ public class Menu extends JFrame implements ActionListener{
   try { 
    cn = DriverManager.getConnection("jdbc:mysql://localhost/control_escolar","root", "");
    
-   //JOptionPane.showMessageDialog(null, "DB CONNECTED");
-
+   JOptionPane.showMessageDialog(null, "DB CONNECTED");
+   JOptionPane.showMessageDialog(null, "DB CONNECTED");
+   
     Menu ventana = new Menu();
     ventana.setBounds(300,200,240,415);
     ventana.setVisible(true);
